@@ -2,7 +2,7 @@
 
 # Frontend Developer Test
 
-Thank you for you interest in Blendtec's Development Team. While we all work at multiple levels of the stack this simple test will help us understand your skills and familiarity with good coding practices in front end development.
+Thank you for you interest in Blendtec's Development Team. While we all work at multiple levels of the stack this simple test will help us understand your skills and familiarity with good coding practices in frontend development.
 
 ## Instructions
 
@@ -12,7 +12,7 @@ A working knowledge of Git is required for working at Blendtec. If you are not f
 
 ### 2. Complete the User Stories (below)
 
-At Blendtec we strive to work in a more agile environment. If you are unfamiliar with Agile or Scrum refer to Wikipedia: [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) and [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)); and Google.
+At Blendtec we strive to work in an agile environment. If you are unfamiliar with Agile or Scrum, refer to Wikipedia: [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development), [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), and Google.
 
 In short, a User story is a specific, plain English description of a user's needs from the user's perspective.
 
@@ -22,7 +22,7 @@ Optional, use a branching strategy and merge a completed story all at once.
 
 ### 3. Additional Improvements
 
-The existing code is deliberately bare bones and the page is deliberately lacking design. This is an opportunity for you to shine. Whether is it by implementing best practices, task runners or CSS pre/post processors or cleaning up the code, or by adding a touch of your design. Keep the design clean and simple. Refer to some of the clean and simple designs on [www.blendtec.com](http://www.blendtec.com) for examples and color schemes.
+The existing code is deliberately bare bones and the page is deliberately lacking design. This is an opportunity for you to shine., whether by implementing best practices, task runners or CSS pre/post processors or cleaning up the code, or by adding a touch of your design. Keep the design clean and simple. Refer to some of the designs on [www.blendtec.com](http://www.blendtec.com) for examples and color schemes.
 
 Again, make specific and detailed commit messages for each improvement. Make sure to include why it is an improvement in your eyes.
 
@@ -36,7 +36,7 @@ After you have completed your changes, please submit a pull request. All candida
 
 ### 1. Header Hero
 
-As a User I want to see a nice branded Hero with the Header text centered in the Hero, and the Hero background image muted with a red overlay. See [screenshot](screenshot-hero.png)
+As a User I want to see a nice branded Hero section with the Header text centered in the Hero, and the Hero background image muted with a red overlay. See [screenshot](screenshot-hero.png)
 
 Header text should be white on the red background. Feel free to look at some of the miscellaneous pages on Blendtec.com. But write your own code, and feel free to do it differently.
 
@@ -60,7 +60,7 @@ Please display the error message beneath the appropriate input(s) and have the e
 
 ### 5. Mobile Responsive Layout
 
-As a User I would like the page to look good on and be optimized for my device whatever it's size and the form is easy to fill out.
+As a User I would like the page to look good on and be optimized for my device whatever its size and the form is easy to fill out.
 
 Feel free to take liberties on page layout and the form layout, but the mobile style should match the full width version appropriately.
 
