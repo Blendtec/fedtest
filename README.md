@@ -8,11 +8,11 @@ Thank you for you interest in Blendtec's Development Team. While we all work at 
 
 ### 1. Fork this Repository
 
-A working knowledge of Git is required for working at Blendtec. If you are not familiar with Git you can teach yourself easily. Refer to the (online Git book)[http://git-scm.com/book].
+A working knowledge of Git is required for working at Blendtec. If you are not familiar with Git you can teach yourself easily. Refer to the [online Git book](http://git-scm.com/book).
 
 ### 2. Complete the User Stories (below)
 
-At Blendtec we strive to work in a more agile environment. If you are unfamiliar with Agile or Scrum refer to Wikipedia: (Agile software development)[https://en.wikipedia.org/wiki/Agile_software_development] and (Scrum)[https://en.wikipedia.org/wiki/Scrum_(software_development)]; and Google.
+At Blendtec we strive to work in a more agile environment. If you are unfamiliar with Agile or Scrum refer to Wikipedia: [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) and [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)); and Google.
 
 In short, a User story is a specific, plain English description of a user's needs from the user's perspective.
 
@@ -22,7 +22,7 @@ Optional, use a branching strategy and merge a completed story all at once.
 
 ### 3. Additional Improvements
 
-The existing code is deliberately bare bones and the page is deliberately lacking design. This is an opportunity for you to shine. Whether is it by implementing best practices, task runners or CSS pre/post processors or cleaning up the code, or by adding a touch of your design. Keep the design clean and simple. Refer to some of the clean and simple designs on (www.blendtec.com)[http://www.blendtec.com] for examples and color schemes.
+The existing code is deliberately bare bones and the page is deliberately lacking design. This is an opportunity for you to shine. Whether is it by implementing best practices, task runners or CSS pre/post processors or cleaning up the code, or by adding a touch of your design. Keep the design clean and simple. Refer to some of the clean and simple designs on [www.blendtec.com](http://www.blendtec.com) for examples and color schemes.
 
 Again, make specific and detailed commit messages for each improvement. Make sure to include why it is an improvement in your eyes.
 
@@ -36,7 +36,7 @@ After you have completed your changes, please submit a pull request. All candida
 
 ### 1. Header Hero
 
-As a User I want to see a nice branded Hero with the Header text centered in the Hero, and the Hero background image muted with a red overlay. See (screenshot)[screenshot-hero.png]
+As a User I want to see a nice branded Hero with the Header text centered in the Hero, and the Hero background image muted with a red overlay. See [screenshot](screenshot-hero.png)
 
 Header text should be white on the red background. Feel free to look at some of the miscellaneous pages on Blendtec.com. But write your own code, and feel free to do it differently.
 
@@ -44,13 +44,13 @@ Header text should be white on the red background. Feel free to look at some of 
 
 As a User I would like the Warranty Claim form emphasized in a box to set it off from the helpful content.
 
-See (screenshot)[screenshot-contentbox.png].
+See [screenshot](screenshot-contentbox.png).
 
 ### 3. Form formatted
 
 As a User I would like a nice easy to read and use form to submit my warranty claim.
 
-Please make it a two column form with labels above the inputs. See (screenshot)[screenshot-form.png]. The text area should be full width. The three date inputs should as a unit span the full width.
+Please make it a two column form with labels above the inputs. See [screenshot](screenshot-form.png). The text area should be full width. The three date inputs should as a unit span the full width.
 
 ### 4. Date Validation
 
