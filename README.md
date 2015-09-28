@@ -24,7 +24,7 @@ Optional, use a branching strategy and merge a completed story all at once.
 
 The existing code is deliberately bare bones and the page is deliberately lacking design. This is an opportunity for you to shine., whether by implementing best practices, task runners or CSS pre/post processors or cleaning up the code, or by adding a touch of your design. Keep the design clean and simple. Refer to some of the designs on [www.blendtec.com](http://www.blendtec.com) for examples and color schemes.
 
-Again, make specific and detailed commit messages for each improvement. Make sure to include why it is an improvement in your eyes.
+Again, make specific and detailed commit messages for each improvement. Make sure to include why it is an improvement.
 
 We are not judging design but rather would like to see initiative.
 
@@ -42,15 +42,15 @@ Header text should be white on the red background. Feel free to look at some of 
 
 ### 2. Claim Form box
 
-As a User I would like the Warranty Claim form emphasized in a box to set it off from the helpful content.
+As a User I would like the warranty Claim form emphasized with a border, separated from the main content.
 
 See [screenshot](screenshot-contentbox.png).
 
 ### 3. Form formatted
 
-As a User I would like a nice easy to read and use form to submit my warranty claim.
+As a User I would like to submit my warranty claim through a form that is easy to navigate.
 
-Please make it a two column form with labels above the inputs. See [screenshot](screenshot-form.png). The text area should be full width. The three date inputs should as a unit span the full width.
+Please make it a two column form with labels above the inputs. See [screenshot](screenshot-form.png). The text area should span the full width of the form. The three date inputs, as a group, should span the full width of the form.
 
 ### 4. Date Validation
 
@@ -60,9 +60,9 @@ Please display the error message beneath the appropriate input(s) and have the e
 
 ### 5. Mobile Responsive Layout
 
-As a User I would like the page to look good on and be optimized for my device whatever its size and the form is easy to fill out.
+As a User I would like the page to be optimized for my device whatever its size and the form is easy to fill out.
 
-Feel free to take liberties on page layout and the form layout, but the mobile style should match the full width version appropriately.
+Feel free to take liberties on page layout and the form layout, but the mobile styles should be consistent with the full width version.
 
 ## Questions
 
