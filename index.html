@@ -13,6 +13,7 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -130,7 +131,8 @@
 						</div>
 						<div class="selects">
 							<label for="OccurenceYear" class="form_label">Year</label>
-							<select id="OccurenceYear" class="form__field--select">
+							<select id="OccurenceYear" class="form__field--select ">
+								<option value="2021">2021</option>
 								<option value="2020">2020</option>
 								<option value="2019">2019</option>
 								<option value="2018">2018</option>
@@ -147,11 +149,13 @@
 								<option value="2007">2007</option>
 								<option value="2006">2006</option>
 								<option value="2005">2005</option>
+								<option value="2004">2004</option>
 							</select>
+							<span class='error'>Invalid Date</span>
 						</div>
 					</div>
 					<div class="submit-wrapper">
-						<button class="form__submit" type="submit">Submit Claim</button>
+						<button id="formSubmitBtn" class="form__submit" type="submit">Submit Claim</button>
 					</div>
 				</form>
 			</div>
