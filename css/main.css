@@ -117,13 +117,13 @@ a, a:visited, a:hover {
             width: 95%;
             padding: 5px 10px;
             font-size: 1rem;
-            border: 1px solid #8b8c8e;
+            border: 1px solid #a5a6a7;
             border-radius: 3px; }
       .content-wrapper .main-content .warranty-claim .form .textarea-wrapper {
         margin: 20px 0; }
         .content-wrapper .main-content .warranty-claim .form .textarea-wrapper textarea {
           width: 100%;
-          border: 1px solid #8b8c8e;
+          border: 1px solid #a5a6a7;
           border-radius: 3px; }
       .content-wrapper .main-content .warranty-claim .form .select-wrapper {
         margin: 20px 0;
@@ -143,18 +143,42 @@ a, a:visited, a:hover {
           display: inline-block;
           width: 32%;
           vertical-align: top;
-          font-size: 1rem; }
+          font-size: 1rem;
+          position: relative; }
           @media screen and (max-width: 767px) {
             .content-wrapper .main-content .warranty-claim .form .select-wrapper .selects {
               width: 100%; } }
           .content-wrapper .main-content .warranty-claim .form .select-wrapper .selects .form__field--select {
             width: 100%;
             font-size: 1em;
-            padding: 10px;
-            border: 1px solid #8b8c8e;
+            padding: 5px 10px;
+            border: 1px solid #a5a6a7;
             border-radius: 3px; }
+          .content-wrapper .main-content .warranty-claim .form .select-wrapper .selects .error {
+            padding: 5px;
+            background-color: #ED1B2C;
+            color: #fff;
+            border-radius: 3px;
+            font-size: .8em;
+            width: 50%;
+            display: none;
+            text-align: center;
+            position: absolute;
+            top: 60px;
+            left: 22px; }
+            .content-wrapper .main-content .warranty-claim .form .select-wrapper .selects .error:before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: -5px;
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-bottom: 5px solid #ED1B2C; }
       .content-wrapper .main-content .warranty-claim .form .submit-wrapper {
-        text-align: right; }
+        text-align: right;
+        margin: 40px 0 0; }
         .content-wrapper .main-content .warranty-claim .form .submit-wrapper .form__submit {
           background: #ED1B2C;
           padding: 10px 20px;
@@ -164,7 +188,7 @@ a, a:visited, a:hover {
           border-radius: 3px;
           border: 1px solid #c5101e;
           transition: background .3s ease; }
-          .content-wrapper .main-content .warranty-claim .form .submit-wrapper .form__submit:hover {
+          .content-wrapper .main-content .warranty-claim .form .submit-wrapper .form__submit:hover, .content-wrapper .main-content .warranty-claim .form .submit-wrapper .form__submit:disabled {
             background: #f14a58;
             border: 1px solid #960c17; }
   .content-wrapper .sidebar {
