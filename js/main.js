@@ -3,10 +3,8 @@ $(document).ready(function() {
 });
 
 function warrantyFormValidation() {
-	var OccurenceYear = $('#OccurenceYear'),
-		occurenceYearSelect = document.getElementById('OccurenceYear'),
-		selectedOption = occurenceYearSelect.options.selectedIndex = 6;
-
+	var occurenceYearSelect = document.getElementById('OccurenceYear'),
+	selectedOption = occurenceYearSelect.options.selectedIndex = 5;
 
 	$('#OccurenceYear').on('change', function() {
 			var selectedOption = occurenceYearSelect.options.selectedIndex,
